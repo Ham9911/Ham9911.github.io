@@ -2,47 +2,65 @@
     position: absolute;
     top: 105%;
     left: 16%;
-    ;}
-
-.main{
-    background-color:rgb(56, 56, 56)  
+    ;
 }
-.img{
+
+.main {
+    background-color: rgb(56, 56, 56)
+}
+
+.img {
     background-color: rgb(0, 0, 0);
 }
-*{
-    background-color:rgba(31, 30, 30, 0.61); 
+
+* {
+    background-color: rgba(31, 30, 30, 0.61);
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
-#em{
-    margin-left:  0.2in ;
+
+#em {
+    margin-left: 0.2in;
     word-spacing: 10px;
     color: rgb(114, 151, 134);
 }
-.icon{
+
+.icon {
     background-color: black;
 }
-#about{
+
+#about {
     margin-left: 0.2in;
-    font-size: 55px;}
-    #services{
-        margin-left: 0.2in;
-        font-size: 30px;}
-        .head{
-            font-size: 17px;
-        margin-left: 0.2in;}
-        #dev{
-            color: rgb(114, 151, 134);
-            font-size: 15px;
-            background-color: black;}
-            #name{
-                background-color: black;
-                font-size: 30px;}
-.text{
-    margin-left:  0.2in;
-    margin-right: 00.2in;
-    color: rgba(228, 225, 225, 0.418);}
-    .tdata{
-        margin-left: 0.2in;
-    }
+    font-size: 55px;
+}
+
+#services {
+    margin-left: 0.2in;
+    font-size: 30px;
+}
+
+.head {
+    font-size: 17px;
+    margin-left: 0.2in;
+}
+
+#dev {
+    color: rgb(114, 151, 134);
+    font-size: 15px;
+    background-color: black;
+}
+
+#name {
+    background-color: black;
+    font-size: 30px;
+}
+
+.text {
+    margin-left: 0.2in;
+    margin-right: 0.2in;
+    color: rgba(228, 225, 225, 0.418);
+}
+
+.tdata {
+    margin-left: 0.2in;
+}
