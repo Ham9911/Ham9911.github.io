@@ -1,7 +1,7 @@
 .imgtxt {
     position: absolute;
-    top: 105%;
-    left: 16%;
+    top: 97%;
+    left: 17.5%;
     ;
 }
 
@@ -35,7 +35,7 @@
 }
 
 #services {
-    /* margin-left: 0.2in; */
+    margin-left: 0.2in;
     font-size: 30px;
 }
 
