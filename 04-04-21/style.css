@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {}
+
+.section .section-left {
+    width: 49%;
+    display: inline-block;
+}
+
+.section-left .image-text {
+    height: 100vh;
+    position: absolute;
+    bottom: -615px;
+    color: white;
+    width: 49%;
+    text-align: center;
+}
+
+#name {}
+
+.section-right {}

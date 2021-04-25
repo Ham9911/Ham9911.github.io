@@ -1,0 +1,52 @@
+select {
+    width: 100%;
+    /* min-width: 15ch;
+    max-width: 30ch; */
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    width: 550px;
+    display: block;
+    font-size: 15px;
+    border-color: white;
+    /* background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%); */
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#button {
+    width: 7in;
+    height: 0.35in;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+#message {
+    border-color: white;
+}
+
+table {
+    background-color: white
+}
+
+#heading {
+    font-size: 35px;
+    text-align: center;
+}
+
+.column {
+    margin-top: 1px;
+    margin-left: 1px;
+    height: 0.7in;
+}
+
+.margin {
+    margin-left: 1px;
+    margin-top: 1px;
+}

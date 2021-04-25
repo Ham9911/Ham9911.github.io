@@ -1,0 +1,103 @@
+/* This is universal selector */
+
+
+/* *{
+    /* color: red; */
+
+
+/* font-size: 20px;
+    font-weight: bold; */
+
+
+/* margin: none;
+} */
+
+
+/* Type selector */
+
+
+/* 
+h1 {
+    color: royalblue;
+}
+ */
+
+
+/* class selector & multiple class selector */
+
+
+/* .head-color {
+    color: red
+}
+
+.head-size {
+    font-size: 100px;
+}
+
+
+/* id selector */
+
+
+/* #para-1 {
+    color: green;
+} */
+
+
+/* Child Selector */
+
+
+/* 
+ol>li {
+    color: grey;
+}
+
+.navbar {
+    background-color: rgb(20, 20, 20);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.left-link {
+    width: 94%;
+}
+
+.last {
+    display: inline-block;
+    right: 0%;
+    position: absolute;
+} */
+
+.main {
+    display: flex;
+    /* justify-content: flex-end;
+    align-content: center; */
+    /* justify-content: space-evenly;
+    align-items: stretch; */
+    height: 100vh;
+}
+
+.box {
+    background-color: cornflowerblue;
+    /* width: 150px;
+    height: 150px; */
+    flex: 1;
+}
+
+.box2 {
+    background-color: green;
+    /* width: 150px;
+    height: 150px; */
+    flex: 2;
+}

@@ -1,0 +1,60 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+fieldset {
+    border: 2px solid black;
+}
+
+legend {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 1% 1% 1% 38%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input:hover {
+    background-color: pink;
+}
+
+input:focus {
+    background-color: grey;
+}
+
+form {
+    border: 3px solid maroon;
+    padding: 20px;
+    margin: 1% 22% 2% 15%;
+}
+
+input.email {
+    background-image: url('./email.jpg');
+    background-size: 19%;
+    background-repeat: no-repeat;
+    border: 2px dashed blue;
+    padding: 11px 4px 10px 35px;
+    margin: 1% 1% 1% 1%;
+    cursor: pointer;
+}
+
+input.password {
+    background-image: url('./padlock.png');
+    background-size: 14%;
+    background-position: 3%;
+    background-repeat: no-repeat;
+    border: 2px dashed blue;
+    padding: 11px 4px 10px 35px;
+    margin: 1% 1% 1% 1%;
+    cursor: pointer;
+}
+
+input.submit {
+    background-color: black;
+    color: white;
+    padding: 3px 83px 5px 42px;
+    margin: 1% 1% 1% 1%;
+    border-radius: 0%;
+    box-shadow: -6px 9px rgb(0 0 0 / 7%);
+    cursor: pointer;
+}

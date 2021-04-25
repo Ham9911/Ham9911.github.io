@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <table style=" border-spacing: 1cm; text-align: left;">
+        <tr>
+            <td id=heading colspan="2">
+                <b> Contact Us</b>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="background-color:rgb(218, 214, 214);border-radius: 5px; ">
+                <span class=margin>FULL NAME*</span><br><input class=column type="text" size="98" style="border:white ;border-radius: 5px; ; background-color:rgb(218, 214, 214);" placeholder="Enter Your Username Here">
+            </td>
+        </tr>
+        <tr>
+            <td class=column style="background-color:rgb(218, 214, 214);border-radius: 5px">EMAIL*<br><input type="email" size="45" style="border:white ;background-color:rgb(218, 214, 214);" placeholder="Enter Your email Here"></td>
+            <td class=column style="background-color:rgb(218, 214, 214);border-radius: 5px">PHONE*<br><input type="email" size="45" style="border:white ; background-color:rgb(218, 214, 214);" placeholder="Enter Your contact# Here"></td>
+        </tr>
+        <tr>
+            <td style="background-color:rgb(218, 214, 214);border-radius: 5px" colspan="2">
+                <span class=margin>NEEDED SERVICES*</span>
+                <BR>
+                <select class=column style="width: 650px; display: block;font-size: 15px; border-color: rgb(218, 214, 214); background-color:rgb(218, 214, 214);  " name="internet">
+               <output label="Please Choose">
+               <option value="10mbps">10 mbps</option>
+               <option value="20mbps">20 mbps</option>
+               <option value="30mbps">30 mbps</option>
+               <option value="40mbps">40 mbps</option>
+               
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="background-color:white" colspan="2">
+                <span class=margin> MESSAGE </span> <br>
+                <textarea style="border-color: rgb(218, 214, 214);border-radius: 5px;" id="message" rows="10" cols="90"></textarea>
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input id=button type="button" value="submit ->">
+            </td>
+
+        </tr>
+    </table>
+
+</html>

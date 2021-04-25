@@ -1,0 +1,102 @@
+body {
+    margin: 4cm;
+    margin-right: 5cm;
+    background-color: #1c1c1c
+}
+
+.mainheading {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.headingbtext {
+    color: #54876e;
+    font-style: italic;
+    word-spacing: 0.5cm;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    height: 90%;
+    background-color: #1d1e20;
+}
+
+.left {
+    float: left;
+    width: 40%;
+    height: 98%;
+}
+
+.image {
+    height: 790px;
+    width: 538px;
+}
+
+.para {
+    color: #d9d9db;
+}
+
+.id {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    transform: translate(3%, -260%);
+}
+
+.role {
+    font-weight: bold;
+    color: #54876e;
+    text-align: center;
+    transform: translate(3%, -950%);
+}
+
+.services {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.tags {
+    color: white;
+}
+
+.tagtext {
+    color: #d9d9db;
+}
+
+.lupbox {
+    position: absolute;
+    top: 73%;
+    width: 15%;
+    height: 48%;
+}
+
+.ldownbox {
+    position: absolute;
+    top: 100%;
+    width: 15%;
+    height: 48%;
+}
+
+.rupbox {
+    position: absolute;
+    top: 73%;
+    left: 70%;
+    width: 15%;
+    height: 48%;
+}
+
+.rdownbox {
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    width: 15%;
+    height: 48%;
+}
+
+.hr {
+    box-shadow: 0px 1px #e1dcdc
+}
