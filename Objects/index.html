@@ -9,21 +9,75 @@
 </head>
 
 <body>
-    <form action="#" method="get">
-        <label for="name">First name:</label>
-        <input type="text" id="name" name="name">&nbsp;&nbsp;
-        <label for="age">Age:</label>
-        <input type="text" id="age" name="age"><br><br>
-        <label for="gender">Gender:</label>
-        <input type="text" id="gender" name="gender"><br><br>
-        <label for="gender">Email:</label>
-        <input type="text" id="email" name="email"><br><br>
-        <input type="submit" value="Submit" onclick="Record()">
-    </form>
-    <!-- search<input type="text" size="20" id="search"></input>
-    Model<input type="text" size="20" id="model"></input>
-    <button id="submit" onclick="onSubmit();">Submit</button> -->
-    <script src='app.js'></script>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <form>
+            <label>
+            Name:<input type="text" id="inputName"> </label><br><br>
+            <label>
+                Gender:<br>
+    <select id="gender">
+        <option value="male" id="male">Male</option>
+        <option value="female"id="female">Female</option>
+    </select></label><br><br>
+            <label>Education:<br>
+        <select id="edu">
+            <option value="HSC" id="hsc">HSC</option>
+            <option value="BS" id="bs">BS</option>
+        </select></label><br><br>
+            <label>Proffesion:<br>
+    <select id="proff">
+        <option value="Job" id="job">Job</option>
+        <option value="Buss" id="Buss">Buisness</option>
+    </select></label>
+            <br><br>
+            <label>
+                    Email:<input type="text" id="email"> </label>
+            <label>
+            <button onclick="createPerson();">Submit</button>
+    
+    
+        </form>
+    
+        <script>
+            var arr = [];
+    
+            function createPerson() {
+                var name = document.getElementById('inputName').value;
+                var gender = document.getElementById('gender').value;
+                var email = document.getElementById('email').value;
+                var edu = document.getElementById('edu').value;
+                var prof = document.getElementById('proff').value;
+    
+                function Person(name, gender, email, edu, proff) {
+                    this.name = name;
+                    this.gender = gender;
+                    this.email = email;
+                    this.edu = edu;
+                    this.proff = proff;
+                }
+                var newPerson = new Person(name, gender, email,edu, proff);
+                localStorage.setItem('value', JSON.stringify(newPerson));
+                var newPerson2 = new Person(name, gender, email,edu, proff);
+                localStorage.setItem('value1', JSON.stringify(newPerson2));
+            }
+    
+            var a_value = JSON.parse(localStorage.getItem('value'));
+            var b_value = JSON.parse(localStorage.getItem('value1'));
+            arr.push(a_value);
+            arr.push(b_value);
+            console.log(arr);
+        </script>
+    
 </body>
 
 </html>

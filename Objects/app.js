@@ -37,23 +37,5 @@
 
 
 //Assign 03
-// function Record(name, age, gender, email) {
-//     this.name = name;
-//     this.age = age;
-//     this.gender = gender;
-//     this.email = email;
-// }
 
-// var hammad = new Record('hammad', 26, 'm', 'hamm@gmail.com');
-// var ebad = new Record('ebad', 22, 'm', 'ebd@gmail.com');
-// var wahaj = new Record('Wahaj', 20, 'm', 'whj@gmail.com');
-// var maham = new Record('Maham', 22, 'f', 'mhm@gmail.com');
-
-// function Record(name, age, gender, email) {
-//     this.name = name;
-//     this.age = age;
-//     this.gender = gender;
-//     this.email = email;
-// }
-
-// var user1 = new Record(document.getElementById('name').innerHTML, document.getElementById('age').innerHTML, document.getElementById('gender').innerHTML, document.getElementById('emai').innerHTML);
+//On index.html
