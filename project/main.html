@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+
+</head>
+
+
+<body>
+    <div>
+        <div class='welcome' id="welcome_box">
+            Welcome User: <span id="user"></span>
+        </div>
+        <div>
+            <button class="logout" onclick="logout()">Logout</button>
+        </div>
+        <div id='box1'>
+            <h3>Teams You Own</h3>
+
+        </div>
+        <div id='box2'>
+            Teams:<span id='own_team'>Data to show</span><br> Members:
+            <span id='own_members'></span>
+        </div>
+        <div id='box3'>
+            <h3>List Of Teams</h3>
+            <ul id='listofteams'>
+
+            </ul>
+        </div>
+
+        <div id='box4'>
+            Teams<input type="text" id="teamname" />
+            <button class='addteam' onclick='addteams()'>Add team</button>
+
+        </div>
+    </div>
+
+
+    <script src=" ./app.js "></script>
+</body>
+
+</html>
